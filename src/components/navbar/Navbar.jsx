@@ -17,7 +17,7 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="#">
-            <img src="/facebook.png" alt="fb" />
+            <img src="/portfolio-assignment/facebook.png" alt="fb" />
           </a>
           <a href="#">
             <img src="/instagram.png" alt="ig" />
