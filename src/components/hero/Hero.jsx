@@ -59,7 +59,7 @@ const Hero = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src="/scroll.png"
+            src="/portfolio-assignment/scroll.png"
             alt="scroll"
           />
         </motion.div>
@@ -68,7 +68,7 @@ const Hero = () => {
         Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/heroPersonTemplate.png" alt="heroImg" />
+        <img src="/portfolio-assignment/heroPersonTemplate.png" alt="heroImg" />
         <a href="https://www.vecteezy.com/free-png/character">
           Character PNGs by Vecteezy
         </a>

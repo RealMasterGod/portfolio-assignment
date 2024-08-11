@@ -40,7 +40,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="people" />
+          <img src="/portfolio-assignment/people.webp" alt="people" />
           <h1>
             <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
@@ -58,7 +58,7 @@ const Services = () => {
           className="box"
           whileHover={{ backgroundColor: "lightgray", color: "black" }}
         >
-          <h2>Fontend Dev</h2>
+          <h2>Frontend Dev</h2>
           <p>
             I have required skills that makes me a decent frontend developer. Skills set include HTML, CSS, JQuery,AJAX, SCSS, TAILWIND CSS, BOOTSTRAP, REACTJS.
           </p>

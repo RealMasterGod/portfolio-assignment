@@ -31,7 +31,7 @@ const Parallax = ({ type }) => {
         style={{
           y: YBg,
           backgroundImage: `url(${
-            type === "services" ? "/planets.png" : "/sun.png"
+            type === "services" ? "/portfolio-assignment/planets.png" : "/portfolio-assignment/sun.png"
           })`,
         }}
         className="planets"
