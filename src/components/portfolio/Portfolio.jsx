@@ -87,7 +87,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button onClick={() => window.open(item.url, '_blank')}>See Code</button>
+            <button style={{position: 'relative', zIndex: 99}} onClick={() => window.open(item.url, '_blank')}>See Code</button>
           </motion.div>
         </div>
       </div>
